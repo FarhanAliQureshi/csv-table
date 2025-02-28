@@ -52,7 +52,8 @@ function addHeaderToTable(headerRow, table) {
   let newHeader = table.createTHead();
   let newRow = newHeader.insertRow();
   for (const column of headerRow) {
-    let newColumn = newRow.insertCell();
+    let newColumn = document.createElement("th");
     newColumn.innerText = column;
+    newRow.appendChild(newColumn);
   }
 }
