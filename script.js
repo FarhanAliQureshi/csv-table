@@ -9,5 +9,11 @@ function updateCsvTable() {
   } else {
     const currentFile = selectedFiles[0];
     console.log(`File selected: ${currentFile.name}`);
+    Papa.parse(currentFile, {
+      skipEmptyLines: true,
+      complete: function (results) {
+        console.log(results);
+      },
+    });
   }
 }
