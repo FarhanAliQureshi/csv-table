@@ -1,0 +1,25 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#csvtable {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#csvtable,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
+}
+
+#csvtable th {
+  background-color: aqua;
+}
+
+#csvtable tr:nth-child(odd) {
+  background-color: #d6eeee;
+}
