@@ -15,6 +15,9 @@ Open `index.html` is any modern browser. Make sure following files are in the sa
 ## How to use?
 Click on the button "Choose File" and choose any local CSV file in your device. The CSV data will be displayed formatted in a table.
 
+### Notes
+This script expects CSV file will have column headers.
+
 ## Generative AI Full Disclosure
 No generative artificial intelligence (AI), AI Assistance, or large language model (LLM) were used in writing this project.
 
