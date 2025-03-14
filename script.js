@@ -48,7 +48,7 @@ function addDataToTable(data, table) {
   let newBody = table.createTBody();
 
   for (const rowData of data) {
-    if (headerAdded === false) {
+    if (!headerAdded) {
       addHeaderToTable(rowData, table);
       headerAdded = true; // Add table header only once
     } else {
