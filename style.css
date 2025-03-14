@@ -8,8 +8,8 @@ body {
 }
 
 #csvtable,
-th,
-td {
+#csvtable th,
+#csvtable td {
   border: 1px solid;
   border-collapse: collapse;
   padding: 5px;
@@ -20,6 +20,6 @@ td {
   background-color: aqua;
 }
 
-#csvtable tr:nth-child(odd) {
+#csvtable > tbody > tr:nth-child(odd) {
   background-color: #d6eeee;
 }
