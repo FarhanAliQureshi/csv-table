@@ -21,8 +21,8 @@ The release file `viewcsv.html` is a combined file which contains all above list
 ## Usage
 Open `index.html` or `viewcsv.html` is any modern browser. Click on the button "Choose File" and choose any local CSV file in your device. The CSV data will be displayed formatted in a table.
 
-### Notes
-This project expects the CSV file will have column headers.
+> [!IMPORTANT]
+> This project expects the CSV file will have column headers.
 
 ## License
-Copyright © 2025 [Farhan Ali Qureshi](https://github.com/FarhanAliQureshi).<br /> This project is [MIT](LICENSE) licensed.
+Copyright © 2025 [Farhan Ali Qureshi](https://github.com/FarhanAliQureshi). This project is [MIT](LICENSE) licensed.
