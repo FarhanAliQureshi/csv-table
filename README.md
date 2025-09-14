@@ -2,7 +2,7 @@
 Read and process any given local CSV file (without sending to server) and display it in an HTML table. No front-end framework was used in this project. I have used vanilla JavaScript and Papa Parse library. Papa Parse has no dependencies. I have directly manipulated DOM for deleting and inserting objects, to display variable rows and columns of the table, when a CSV file is loaded.
 
 ## Live Demo
-You can view the live demo site on GitHub Pages at [https://github.io/FarhanAliQureshi/csv-table](https://github.io/FarhanAliQureshi/csv-table/)
+You can view the live demo site on GitHub Pages at [https://farhanaliqureshi.github.io/csv-table](https://farhanaliqureshi.github.io/csv-table/)
 
 ## Demo Screenshots
 ![Screenshot of Sample Table](assets/images/screenshot_sample_table.png)
